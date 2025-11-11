@@ -1,0 +1,83 @@
+{
+    "shopengine_add_to_cart_settings_start": {
+        "type": "PanelBody",
+        "label": "Settings"
+    },
+    "shopengine_qr_code_size": {
+        "control": {
+            "field": "RangeControl",
+            "props": {
+                "label": "Size",
+                "min": 0,
+                "max": 1000
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": 150
+        },
+        "ssr": true
+    },
+    "shopengine_qr_code_cart_url": {
+        "control": {
+            "field": "ToggleControl",
+            "props": {
+                "label": "Scan to Add to Cart URL",
+                "checked": false
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": false
+        },
+        "ssr" : true
+    },
+    "shopengine_qr_code_product_quantity": {
+        "control": {
+            "field": "RangeControl",
+            "props": {
+                "label": "Product Quantity",
+                "min": 0,
+                "max": 500
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": 1
+        },
+        "ssr": true,
+        "condition": {
+            "shopengine_qr_code_cart_url": true
+        }
+    },
+    "shopengine_qr_code_align": {
+        "control": {
+            "field": "SelectControl",
+            "label": "Alignment",
+            "props": {
+                "options": [
+                    {
+                        "label": "Left",
+                        "value": "left"
+                    },
+                    {
+                        "label": "Center",
+                        "value": "center"
+                    },
+                    {
+                        "label": "Right",
+                        "value": "right"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "left"
+        }
+    },
+    "shopengine_add_to_cart_settings_end": {
+        "type": "PanelBody",
+        "label": "Settings"
+    }
+}

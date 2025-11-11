@@ -1,0 +1,537 @@
+{
+    "shopengine_main_container_start": {
+        "type": "TabContainer",
+        "label": "Main"
+    },
+    "shopengine_content_container_start": {
+        "type": "TabControl",
+        "label": "Content"
+    },
+    "shopengine_add_to_cart_settings_start": {
+        "type": "PanelBody",
+        "label": "Settings"
+    },
+    "shopengine_call_for_price_btn_text": {
+        "control": {
+            "field": "TextControl",
+            "props": {
+                "label": "Button Text"
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "Call for Price"
+        },
+        "ssr": true
+    },
+    "shopengine_call_for_price_btn_phone_number": {
+        "control": {
+            "field": "TextControl",
+            "props": {
+                "label": "Phone Number"
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "123-456-789"
+        },
+        "ssr": true
+    },
+    "shopengine_add_to_cart_settings_end": {
+        "type": "PanelBody",
+        "label": "Settings"
+    },
+    "shopengine_content_container_end": {
+        "type": "TabControl"
+    },
+    "shopengine_style_container_start": {
+        "type": "TabControl",
+        "label": "Style"
+    },
+    "shopengine_section_call_for_price_styles_start": {
+        "type": "PanelBody",
+        "label": "Button Style"
+    },
+    "shopengine_call_for_price_btn_typography_start": {
+        "type": "PopoverControl",
+        "label": "Typography"
+    },
+    "call_for_price_btn_font_family": {
+        "control": {
+            "field": "FontfamilyControl",
+            "label": "Font Family"
+        },
+        "type": "object"
+    },
+    "call_for_price_btn_font_size": {
+        "control": {
+            "field": "RangeControl",
+            "props": {
+                "label": "Font Size(px)",
+                "min": 0,
+                "max": 200,
+                "step": 1
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": 14
+        }
+    },
+    "call_for_price_btn_font_weight": {
+        "control": {
+            "field": "SelectControl",
+            "props": {
+                "label": "Font Weight",
+                "options": [{
+                        "label": "100",
+                        "value": "100"
+                    },
+                    {
+                        "label": "200",
+                        "value": "200"
+                    },
+                    {
+                        "label": "300",
+                        "value": "300"
+                    },
+                    {
+                        "label": "400",
+                        "value": "400"
+                    },
+                    {
+                        "label": "500",
+                        "value": "500"
+                    },
+                    {
+                        "label": "600",
+                        "value": "600"
+                    },
+                    {
+                        "label": "700",
+                        "value": "700"
+                    },
+                    {
+                        "label": "800",
+                        "value": "800"
+                    },
+                    {
+                        "label": "900",
+                        "value": "900"
+                    },
+                    {
+                        "label": "Default",
+                        "value": "normal"
+                    },
+                    {
+                        "label": "Normal",
+                        "value": "normal"
+                    },
+                    {
+                        "label": "Bold",
+                        "value": "bold"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": 500
+        }
+    },
+    "call_for_price_btn_text_transform": {
+        "control": {
+            "field": "SelectControl",
+            "props": {
+                "label": "Transform",
+                "options": [{
+                        "label": "Default",
+                        "value": "none"
+                    },
+                    {
+                        "label": "Uppercase",
+                        "value": "uppercase"
+                    },
+                    {
+                        "label": "Lowercase",
+                        "value": "lowercase"
+                    },
+                    {
+                        "label": "Capitalize",
+                        "value": "capitalize"
+                    },
+                    {
+                        "label": "Normal",
+                        "value": "normal"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "uppercase"
+        }
+    },
+    "call_for_price_btn_line_height": {
+        "control": {
+            "field": "RangeControl",
+            "props": {
+                "label": "Line Height(px)",
+                "min": 0,
+                "max": 100,
+                "step": 1
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": 17
+        }
+    },
+    "call_for_price_btn_title_wordspace": {
+        "control": {
+            "field": "RangeControl",
+            "props": {
+                "label": "Word Spacing(px)",
+                "min": 0,
+                "max": 100,
+                "step": 1
+            }
+        },
+        "responsive": true,
+        "type": "object",
+        "default": {
+            "desktop": ""
+        }
+    },
+    "shopengine_call_for_price_btn_typography_end": {
+        "type": "PopoverControl"
+    },
+  "shopengine_call_for_price_button_style_tabs_start": {
+        "type": "TabContainer"
+    },
+    "shopengine_call_for_price_button_style_normal_start": {
+        "type": "TabControl",
+        "label": "Normal"
+    },
+    "shopengine_call_for_price_button_text_color_normal": {
+        "control": {
+            "field": "ColorPalette",
+            "label": "Color",
+            "props": {
+                "colors": [{
+                        "name": "red",
+                        "color": "#f00"
+                    },
+                    {
+                        "name": "white",
+                        "color": "#fff"
+                    },
+                    {
+                        "name": "blue",
+                        "color": "#00f"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "#FFFFFF"
+        }
+    },
+    "shopengine_call_for_price_button_bg_color_normal": {
+        "control": {
+            "field": "ColorPalette",
+            "label": "Background Color",
+            "props": {
+                "colors": [{
+                        "name": "red",
+                        "color": "#f00"
+                    },
+                    {
+                        "name": "white",
+                        "color": "#fff"
+                    },
+                    {
+                        "name": "blue",
+                        "color": "#00f"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "#101010"
+        }
+    },
+    "shopengine_call_for_price_button_style_normal_end": {
+        "type": "TabControl",
+        "label": "Normal"
+    },
+    "shopengine_call_for_price_button_style_hover_start": {
+        "type": "TabControl",
+        "label": "Hover"
+    },
+    "shopengine_call_for_price_button_text_color_hover": {
+        "control": {
+            "field": "ColorPalette",
+            "label": "Color",
+            "props": {
+                "colors": [{
+                        "name": "red",
+                        "color": "#f00"
+                    },
+                    {
+                        "name": "white",
+                        "color": "#fff"
+                    },
+                    {
+                        "name": "blue",
+                        "color": "#00f"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "#FFFFFF"
+        }
+    },
+    "shopengine_call_for_price_button_bg_color_hover": {
+        "control": {
+            "field": "ColorPalette",
+            "label": "Background Color",
+            "props": {
+                "colors": [{
+                        "name": "red",
+                        "color": "#f00"
+                    },
+                    {
+                        "name": "white",
+                        "color": "#fff"
+                    },
+                    {
+                        "name": "blue",
+                        "color": "#00f"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "#312b2b"
+        }
+    },
+    "shopengine_call_for_price_button_border_color_hover": {
+        "control": {
+            "field": "ColorPalette",
+            "label": "Border Color",
+            "props": {
+                "colors": [{
+                        "name": "red",
+                        "color": "#f00"
+                    },
+                    {
+                        "name": "white",
+                        "color": "#fff"
+                    },
+                    {
+                        "name": "blue",
+                        "color": "#00f"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "#312b2b"
+        }
+    },
+    "shopengine_call_for_price_button_style_hover_end": {
+        "type": "TabControl",
+        "label": "Hover"
+    },
+    "shopengine_call_for_price_button_style_tabs_end": {
+        "type": "TabContainer"
+    },
+    "shopengine_call_for_price_button_border_type": {
+        "control": {
+            "field": "SelectControl",
+            "props": {
+                "label": "Border Type",
+                "options": [
+                    {
+                        "label": "None",
+                        "value": "none"
+                    },
+                    {
+                        "label": "Solid",
+                        "value": "solid"
+                    },
+                    {
+                        "label": "Double",
+                        "value": "double"
+                    },
+                    {
+                        "label": "Dotted",
+                        "value": "dotted"
+                    },
+                    {
+                        "label": "Dashed",
+                        "value": "dashed"
+                    },
+                    {
+                        "label": "Groove",
+                        "value": "groove"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "solid"
+        }
+    },
+    "shopengine_call_for_price_button_border_width": {
+        "control": {
+            "field": "__experimentalBoxControl",
+            "props": {
+                "label": "Width(px)",
+                "values": {
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
+                }
+            }
+        },
+        "type": "object",
+        "responsive": true,
+        "default": {
+            "desktop": {
+                "top": "1px",
+                "right": "1px",
+                "bottom": "1px",
+                "left": "1px"
+            }
+        }
+    },
+    "shopengine_call_for_price_button_border_color": {
+        "control": {
+            "field": "ColorPalette",
+            "label": "Color",
+            "props": {
+                "colors": [{
+                        "name": "red",
+                        "color": "#f00"
+                    },
+                    {
+                        "name": "white",
+                        "color": "#fff"
+                    },
+                    {
+                        "name": "blue",
+                        "color": "#00f"
+                    }
+                ]
+            }
+        },
+        "type": "object",
+        "default": {
+            "desktop": "#101010"
+        }
+    },
+    "shopengine_call_for_price_button_border_radius": {
+        "control": {
+            "field": "__experimentalBoxControl",
+            "props": {
+                "label": "Border Radius (px)",
+                "values": {
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
+                }
+            }
+        },
+        "type": "object",
+        "responsive": true,
+        "default": {
+            "desktop": {
+                "top": "5px",
+                "right": "5px",
+                "bottom": "5px",
+                "left": "5px"
+            }
+        }
+    },
+    "shopengine_call_for_price_section1": {
+        "control": {
+            "field": "__experimentalDivider"
+        },
+        "type": "object"
+    },
+    "shopengine_call_for_price_button_padding": {
+        "control": {
+            "field": "__experimentalBoxControl",
+            "props": {
+                "label": "Padding (px)",
+                "values": {
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
+                }
+            }
+        },
+        "type": "object",
+        "responsive": true,
+        "default": {
+            "desktop": {
+                "top": "12px",
+                "right": "25px",
+                "bottom": "12px",
+                "left": "25px"
+            }
+        }
+    },
+    "shopengine_call_for_price_section2": {
+        "control": {
+            "field": "__experimentalDivider"
+        },
+        "type": "object"
+    },
+    "shopengine_call_for_price_button_margin": {
+        "control": {
+            "field": "__experimentalBoxControl",
+            "props": {
+                "label": "Margin (px)",
+                "values": {
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
+                }
+            }
+        },
+        "type": "object",
+        "responsive": true,
+        "default": {
+            "desktop": {
+                "top": "0px",
+                "right": "10px",
+                "bottom": "0px",
+                "left": "0px"
+            }
+        }
+    },
+    "shopengine_section_call_for_price_styles_end": {
+        "type": "PanelBody",
+        "label": "Button Style"
+    },
+    "shopengine_style_container_end": {
+        "type": "TabControl"
+    },
+    "shopengine_main_container_end": {
+        "type": "TabContainer"
+    }
+}
